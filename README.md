@@ -5,7 +5,7 @@ A simple example for using adafruit IO on an esp32 microcontroller running Circu
 ## Quickstart
 This example assumes you have already created a [feed](https://learn.adafruit.com/adafruit-io-basics-feeds/overview) on adafruitIO and you specify that feed in your settings.toml file.
 
-In settings.toml, simply configure your wifi network, password, adafruit-io username, api-key, and the name of the feed you've created. The example _code.py_ file publishes the RSSI signal strength of the microcontroller every 60 seconds to the feed.
+In settings.toml, simply configure your wifi network, password, adafruit-io username, api-key, and the name of the feed you've created. The example `code.py` file publishes the RSSI signal strength of the microcontroller every 60 seconds to the feed.
 
 ```toml
 # settings.toml
@@ -27,7 +27,7 @@ WATCHDOG_MAXTIME_SECONDS = 90
 BOARD_LED1 = "your-board-led-pin1-here"
 # BOARD_LED2 = "your-board-led-pin2-here" # if your board has multiple LED pins
 ```
-Just update your _settings.toml_ file and load your code onto your microcontroller. Refer to _include.txt_ for what libraries need to be added to your microcontroller's _/lib_ folder.
+Just update your `settings.toml` file and load your code onto your microcontroller (`settings.toml` `code.py` [`safemode.py` _optional_] . Refer to `include.txt` for what libraries need to be added to your microcontroller's `/lib` folder.
 
 ## What is adafruitIO?
 Adafruit IO is a cloud service hosted by Adafruit that enables sending data to/from internet of things (IoT) devices. AdafruitIO has 2 APIs that enable sending data to/from your microcontroller. You can send data to feeds from your microcontroller, or monitor feeds from your microcontroller and trigger actions based off of specific feed values or value changes.

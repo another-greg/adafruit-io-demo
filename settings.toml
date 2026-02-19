@@ -1,0 +1,18 @@
+# settings.toml
+
+# wifi settings
+CIRCUITPY_WIFI_SSID = "Your-WiFi-Network-Here"
+CIRCUITPY_WIFI_PASSWORD = "Your-WiFi-Password-Here"
+
+# Adafruit IO
+ADAFRUIT_AIO_USERNAME = "your-adafruit-io-username here"
+ADAFRUIT_AIO_KEY      = "your-adafruit-io-api-key-here"
+ADAFRUIT_AIO_FEED     = "name-of-the-feed-you-want-to-publish-to"
+ADAFRUIT_IO_PUBLISH_RATE_SECONDS = 60
+
+# Watchdog settings
+WATCHDOG_MAXTIME_SECONDS = 90
+
+# LEDs
+BOARD_LED1 = "your-board-led-pin1-here"
+# BOARD_LED2 = "your-board-led-pin2-here" # if your board has multiple LED pins

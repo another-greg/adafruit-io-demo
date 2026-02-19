@@ -46,3 +46,6 @@ Adafruit offers a [REST API](https://www.geeksforgeeks.org/node-js/rest-api-intr
 [__AdafruitIO MQTT API__](https://docs.circuitpython.org/projects/adafruitio/en/latest/api.html#adafruit_io.adafruit_io.IO_MQTT): 
 
 [MQTT](https://learn.sparkfun.com/tutorials/introduction-to-mqtt/all) is better suited for IoT devices because it requires less overhead per message and offers [quality of service](https://www.geeksforgeeks.org/computer-networks/computer-network-quality-of-service-and-multimedia/) support for better controlling your traffic. These features make the code a little more confusing to follow in the beginning. 
+
+## Acknowledgements
+This is directly adapted from Adafruit's examples and obviously fully utilizes Adafruit's API and libraries. Thank you to Adafruit for developing cool stuff. Support them by buying some of the cool stuff they design and sell: [adafruit.com](adafruit.com).

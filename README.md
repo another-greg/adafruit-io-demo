@@ -27,7 +27,12 @@ WATCHDOG_MAXTIME_SECONDS = 90
 BOARD_LED1 = "your-board-led-pin1-here"
 # BOARD_LED2 = "your-board-led-pin2-here" # if your board has multiple LED pins
 ```
-Just update your `settings.toml` file and load your code onto your microcontroller (`settings.toml` `code.py` [`safemode.py` _optional_] . Refer to `include.txt` for what libraries need to be added to your microcontroller's `/lib` folder.
+Just update your `settings.toml` file and load your code onto your microcontroller. Files that need to be put on your microcontroller:
+* `settings.toml`
+* `code.py`
+* `safemode.py` _optional_
+
+Refer to `include.txt` for what libraries need to be added to your microcontroller's `/lib` folder.
 
 ## What is adafruitIO?
 Adafruit IO is a cloud service hosted by Adafruit that enables sending data to/from internet of things (IoT) devices. AdafruitIO has 2 APIs that enable sending data to/from your microcontroller. You can send data to feeds from your microcontroller, or monitor feeds from your microcontroller and trigger actions based off of specific feed values or value changes.
